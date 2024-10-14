@@ -8,6 +8,7 @@ export default function Homepage() {
     <div>
         <Hero/>
         <Statistics/>
+        
        
     </div>
   )

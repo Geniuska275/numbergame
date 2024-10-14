@@ -12,6 +12,7 @@ import Products from "./pages/Products";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import AboutUs from "./pages/AboutUs";
+import Footer from "./components/Footer";
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Route path="/Contact-Us" element={<Contact/>} />
       
     </Routes>
+    <Footer/>
   
   </Router>
 
