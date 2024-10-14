@@ -6,7 +6,7 @@ export default function AboutUs() {
 
 
         
-        <div className={`p-5 w-[600px] h-[70px] `}>
+        <div className={`p-5 w-[600px] bg-[#f3fef9] `}>
           <h1 className='text-2xl font-bold font-[lato] text-[#4A4E55] mb-2'>About Us</h1>
           <p className='text-sm font-[lato] text-[#4A4E55] mb-2 '>
           Green fusion energy resources & technology is a company that specializes in providing and installing 

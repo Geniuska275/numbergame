@@ -8,11 +8,14 @@ function Hero() {
         <div className='bg-overlay'></div>
         <div className='display  mt-[150px]'>
             <h1 className='font-bold text-[#37CA2A] text-5xl font-[lato] mb-3'>
-                Solar Energy</h1>
+                Our Vision</h1>
             <h1 className='font-bold text-[#ffffff] text-2xl font-[lato] mb-1'>            
-            Save The Planet Using Renewable Energy.</h1>
+            Providing Affordable and Innovative Solar Energy Solutions.</h1>
             <h4 className='p-[3px] bg-[#37CA2A] w-[160px] rounded-full'></h4>
-            <p className='font-bold text-white text-lg font-[lato] mb-2 mt-5' >Experience the best in security ,high rates ,and unparalleled reliability</p>
+            <p className='font-bold text-white text-lg font-[lato] mb-2 mt-5' >
+            To provide affordable and innovative solar energy solutions to empower organizations and individuals 
+            through the use of renewable energy.
+                </p>
             <p className='font-bold text-white text-lg font-[lato] mb-1'>Your assets are safe,your returns are maximised ,and your satisfaction 
                 is <br></br>
             guaranteed.
