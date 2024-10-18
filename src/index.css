@@ -44,12 +44,29 @@ body{
 .footer{
     padding: 80px;
 }
-
-@media screen and (min-width: 480px) {
+.Foot{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    align-items: center;
+}
+.Stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+@media screen and (max-width: 600px) {
     .Stats{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center; 
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
     }
     .Foot{
         display: flex;
