@@ -75,4 +75,10 @@ body{
     .space{
         margin-bottom: 10px;
     }
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
   }
