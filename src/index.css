@@ -79,6 +79,13 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
+   
+    }
+    .size{
+        width: 400px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
   }

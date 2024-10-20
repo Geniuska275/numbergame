@@ -16,10 +16,10 @@ export default function AboutUs() {
   return (
     <div className='About flex justify-around  p-[20px]'> 
         <img src='https://media.istockphoto.com/id/1405880267/photo/two-engineers-installing-solar-panels-on-roof.jpg?s=612x612&w=0&k=20&c=OvQDbJaTnMM4jPfIA3y5vrO88i98NZJRahZtnYFZCq0='
-         className='w-[500px] h-[380px] rounded-lg shadow-lg'
+         className=' size w-[500px] h-[380px] rounded-lg shadow-lg'
         
         /> 
-        <div className={`p-5 w-[500px] bg-[#f3fef9] rounded shadow `}>
+        <div className={` size p-5 w-[500px] bg-[#f3fef9] rounded shadow `}>
           <h1 className='text-2xl font-bold font-[lato] text-[#4A4E55] mb-2'>About Us</h1>
           <p className='text-sm'>
             {text}
