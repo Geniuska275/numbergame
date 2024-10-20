@@ -19,7 +19,7 @@ export default function AboutUs() {
          className=' size w-[500px] h-[380px] rounded-lg shadow-lg'
         
         /> 
-        <div className={` size p-5 w-[500px] bg-[#f3fef9] rounded shadow `}>
+        <div className={` sizes p-5 bg-[#f3fef9] rounded shadow `}>
           <h1 className='text-2xl font-bold font-[lato] text-[#4A4E55] mb-2'>About Us</h1>
           <p className='text-sm'>
             {text}

@@ -56,6 +56,10 @@ body{
     justify-content: space-around;
     align-items: center; 
 }
+.sizes{
+    width: 500px;
+   
+}
 @media screen and (max-width: 600px) {
     .Stats{
         display: flex;
@@ -83,7 +87,14 @@ body{
    
     }
     .size{
-        width: 400px;
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .sizes{
+        width: 300px;
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
