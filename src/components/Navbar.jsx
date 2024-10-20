@@ -22,8 +22,8 @@ export default function Navbar(){
         setActiveTab("Services");
       }else if (location.pathname=="/Products") {
         setActiveTab("Products");
-      }else if (location.pathname=="/Contact-Us") {
-        setActiveTab("Contact-Us");
+      }else if (location.pathname=="/Contact") {
+        setActiveTab("Contact");
       }
       
     }, [location]);
@@ -60,6 +60,10 @@ export default function Navbar(){
             <Link  to="/Products"
              className={`${activeTab =="Products" ? "text-[#37CA2A]":"text-[#4A4E55]"}  font-[lato] no-underline font-bold`}    
             >Products
+            </Link>
+            <Link  to="/Contact"
+             className={`${activeTab =="Contact" ? "text-[#37CA2A]":"text-[#4A4E55]"}  font-[lato] no-underline font-bold`}    
+            >Contact
             </Link>
            
         <div className="flex justify-evenly items-center gap-3 mt-2">
@@ -114,6 +118,10 @@ export default function Navbar(){
             <Link  to="/Products" onClick={()=>setIsOpen(false)}
              className={`${activeTab =="Products" ? "text-[#37CA2A]":"text-[#4A4E55]"} no-underline font-bold`}    
             >Products
+            </Link>
+            <Link  to="/Contact" onClick={()=>setIsOpen(false)}
+             className={`${activeTab =="Contact" ? "text-[#37CA2A]":"text-[#4A4E55]"} no-underline font-bold`}    
+            >Contact
             </Link>
             
            
