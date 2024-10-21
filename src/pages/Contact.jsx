@@ -11,6 +11,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
   const [name,setName]=useState("")
+  const [lastname,setLastName]=useState("")
+
   const [email,setEmail]=useState("")
   const [message,setMessage]=useState("")
 
@@ -35,6 +37,10 @@ function Contact() {
         () => {
           console.log('SUCCESS!');
           toast.success("Email Sent to GREENFUSION")
+          setName("")
+          setEmail("")
+          setMessage("")
+          setLastName("")
         },
         (error) => {
           toast.error("Email Not Sent to GREENFUSION")
@@ -74,21 +80,25 @@ function Contact() {
         <form  ref={form} onSubmit={sendEmail}>
           <div className='grid grid-cols-2 gap-5 for'> 
           <input
+           value={name}
           onChange={(e)=>setName(e.target.value)}
            type="text"
            name="FirstName"
            placeholder='First Name'
           className='border border-gray-400 py-1 px-2 rounded' required />
           <input 
-          onChange={(e)=>setName(e.target.value)}
+          value={lastname}
+          onChange={(e)=>setLastName(e.target.value)}
           type="text" name="LastName" placeholder='Last Name'  className='border border-gray-400 py-1 px-2 rounded' required/> 
           </div>
           <div className='mt-5'>
 
           <input 
+          value={email}
           onChange={(e)=>setEmail(e.target.value)}
           type="text"  name="Email"placeholder='Email'  className=' w-full border border-gray-400 py-1 px-2 rounded' required /> 
           <textarea
+          value={message}
           onChange={(e)=>setMessage(e.target.value)}
            placeholder='Message' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
           </div>
