@@ -26,7 +26,6 @@ function Contact() {
   const sendEmail = (e) => {
     const public_key="LP_gdQVqVkKCNgmIL"
     e.preventDefault();
-    console.log("")
 
     emailjs
       .send('service_zvdl20p', 'template_9hceqxu', 
@@ -35,7 +34,6 @@ function Contact() {
       )
       .then(
         () => {
-          console.log('SUCCESS!');
           toast.success("Email Sent to GREENFUSION")
           setName("")
           setEmail("")
@@ -52,7 +50,7 @@ function Contact() {
   return (
     <div>
       <Banner text="Contact"/>
-      <ToastContainer />
+      <ToastContainer className="mt-6" />
       <div className='bg-white shadow-lg w-full p-2
            '></div>
      <div className='Form'>
