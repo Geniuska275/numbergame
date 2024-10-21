@@ -72,6 +72,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .Form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+  }
   
 @media screen and (max-width: 600px) {
     .Stats{
@@ -99,6 +106,12 @@ body{
         align-items: center;
    
     }
+    .Form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     .size{
         width: 320px;
         margin: auto;
@@ -111,5 +124,17 @@ body{
         margin: auto;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    form{
+        width: 320px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .for{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        
     }
   }
