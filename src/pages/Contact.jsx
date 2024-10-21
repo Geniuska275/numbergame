@@ -1,16 +1,40 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Banner from '../components/Banner'
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
-
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    console.log("")
+
+    emailjs
+      .sendForm('service_zvdl20p', 'template_9hceqxu', form.current, {
+        publicKey: 'nGshBR1d5tMup5fNo',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          toast.success("Email Sent to GREENFUSION")
+        },
+        (error) => {
+          toast.error("Email Not Sent to GREENFUSION")
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div>
       <Banner text="Contact"/>
+      <ToastContainer />
       <div className='bg-white shadow-lg w-full p-2
            '></div>
      <div className='Form'>
@@ -35,20 +59,20 @@ function Contact() {
       </div>
       <div className=' h-[300px] w-[400px] '>
 
-        <form>
+        <form  ref={form} onSubmit={sendEmail}>
           <div className='grid grid-cols-2 gap-5 for'> 
-          <input type="text" placeholder='First Name' className='border border-gray-400 py-1 px-2 rounded' />
-          <input type="text" placeholder='Last Name'  className='border border-gray-400 py-1 px-2 rounded' /> 
+          <input type="text" name="FirstName" placeholder='First Name' className='border border-gray-400 py-1 px-2 rounded' required />
+          <input type="text" name="LastName" placeholder='Last Name'  className='border border-gray-400 py-1 px-2 rounded' required/> 
           </div>
           <div className='mt-5'>
 
-          <input type="text" placeholder='Email'  className=' w-full border border-gray-400 py-1 px-2 rounded' /> 
-          <textarea placeholder='Message'  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded' />
+          <input type="text"  name="Email"placeholder='Email'  className=' w-full border border-gray-400 py-1 px-2 rounded' required /> 
+          <textarea placeholder='Message' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
           </div>
-          <a href="https://wa.me/+2347032188798"> 
+         
          <button className="bg-[#37CA2A] mt-2 rounded-md 
            font-[lato] px-6 py-2 text-white shadow hover:bg-[#37CA3A] duration-500">GET IN TOUCH</button>
-         </a>
+       
         
         </form>
       </div>
