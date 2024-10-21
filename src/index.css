@@ -79,7 +79,13 @@ body{
     align-items: center;
     padding: 80px;
   }
-  
+  .Products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 600px) {
     .Stats{
         display: flex;
@@ -110,6 +116,7 @@ body{
         align-items: center;
    
     }
+   
     .Form{
         display: flex;
         flex-direction: column;
@@ -143,5 +150,12 @@ body{
     }
     .push{
         margin-right: 100px;
+    }
+    .Products{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around;
+        align-items: center; */
+        margin-bottom: 20px;
     }
   }
