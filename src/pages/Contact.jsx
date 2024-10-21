@@ -14,7 +14,7 @@ function Contact() {
       <div className='bg-white shadow-lg w-full p-2
            '></div>
      <div className='Form'>
-      <div>
+      <div className='push'>
         <h2 className='font-[lato] font-bold text-md mb-2'>Contact Us </h2>
         <h1 className='font-bold text-2xl text-[#4A4E55] font-[lato]'>
           Head Office</h1>
@@ -23,7 +23,7 @@ function Contact() {
                 </p>
                   <div className='flex gap-2 mt-2 mb-2 items-center'>
                   <FaPhone className='text-xl' />
-                   <h1 className='text-2xl'>(+234) 9011192901</h1>
+                   <h1 className='text-2xl w-[200px]'>+234 9011192901</h1>
                   </div>
         <p className='font-bold text-2xl text-[#4A4E55] font-[lato] mb-3'>Follow Our Social Media</p>
         <div className='flex justify-between items-center'>
