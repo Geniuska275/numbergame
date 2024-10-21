@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='footer bg-[#EDF2EA]'>
-        <div className='Foot border-b p-2 '>
+        <div className='Foot border-b p-2 push '>
             <div className='space'>
              <img src="" />
               <div>

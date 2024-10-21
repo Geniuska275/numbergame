@@ -92,6 +92,10 @@ body{
         border-radius: 20px;
         margin-bottom: 20px;
     }
+    .footer{
+        border-radius: 10px;
+        margin: 10px;
+    }
     .Foot{
         display: flex;
         flex-direction: column;
