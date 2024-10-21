@@ -20,6 +20,8 @@ function Contact() {
   const templateParams={
     from_name:name,
     from_email:email,
+    to_name:"GreenFusion",
+    subject:"Contact GreenFusion",
     message:message,
   }
   const form = useRef();
