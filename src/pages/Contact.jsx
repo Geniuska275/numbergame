@@ -15,7 +15,7 @@ function Contact() {
 
   const [email,setEmail]=useState("")
   const [message,setMessage]=useState("")
-
+   console.log(email)
 
   const templateParams={
     from_name:name,
@@ -23,6 +23,7 @@ function Contact() {
     to_name:"GreenFusion",
     subject:"Contact GreenFusion",
     message:message,
+
   }
   const form = useRef();
   const sendEmail = (e) => {
