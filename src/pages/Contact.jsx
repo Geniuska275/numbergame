@@ -53,7 +53,7 @@ function Contact() {
   return (
     <div>
       <Banner text="Contact"/>
-      <ToastContainer className="mt-[120px]" />
+      <ToastContainer className="mt-[80px]" />
       <div className='bg-white shadow-lg w-full p-2
            '></div>
      <div className='Form'>
