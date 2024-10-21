@@ -1,5 +1,8 @@
 import React from 'react'
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className='footer bg-[#EDF2EA]'>
@@ -36,8 +39,14 @@ export default function Footer() {
                 </a>
                 
             </div>
-            <div>
+            <div className='space' >
             <h1> Social Media</h1>
+            <div className='flex justify-between items-center'>
+           <FaFacebook className='text-2xl' />
+            <BsTwitterX className='text-2xl' />
+          <FaInstagram className='text-2xl' />
+           <FaLinkedin  className='text-2xl'/>
+        </div>
                 
             </div>
 

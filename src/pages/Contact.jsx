@@ -1,24 +1,36 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import Banner from '../components/Banner'
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
+  const [name,setName]=useState("")
+  const [email,setEmail]=useState("")
+  const [message,setMessage]=useState("")
+
+
+  const templateParams={
+    from_name:name,
+    from_email:email,
+    message:message,
+  }
   const form = useRef();
   const sendEmail = (e) => {
+    const public_key="LP_gdQVqVkKCNgmIL"
     e.preventDefault();
     console.log("")
 
     emailjs
-      .sendForm('service_zvdl20p', 'template_9hceqxu', form.current, {
-        publicKey: 'nGshBR1d5tMup5fNo',
-      })
+      .send('service_zvdl20p', 'template_9hceqxu', 
+        templateParams,
+        public_key
+      )
       .then(
         () => {
           console.log('SUCCESS!');
@@ -26,7 +38,7 @@ function Contact() {
         },
         (error) => {
           toast.error("Email Not Sent to GREENFUSION")
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error);
         },
       );
   };
@@ -61,13 +73,24 @@ function Contact() {
 
         <form  ref={form} onSubmit={sendEmail}>
           <div className='grid grid-cols-2 gap-5 for'> 
-          <input type="text" name="FirstName" placeholder='First Name' className='border border-gray-400 py-1 px-2 rounded' required />
-          <input type="text" name="LastName" placeholder='Last Name'  className='border border-gray-400 py-1 px-2 rounded' required/> 
+          <input
+          onChange={(e)=>setName(e.target.value)}
+           type="text"
+           name="FirstName"
+           placeholder='First Name'
+          className='border border-gray-400 py-1 px-2 rounded' required />
+          <input 
+          onChange={(e)=>setName(e.target.value)}
+          type="text" name="LastName" placeholder='Last Name'  className='border border-gray-400 py-1 px-2 rounded' required/> 
           </div>
           <div className='mt-5'>
 
-          <input type="text"  name="Email"placeholder='Email'  className=' w-full border border-gray-400 py-1 px-2 rounded' required /> 
-          <textarea placeholder='Message' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
+          <input 
+          onChange={(e)=>setEmail(e.target.value)}
+          type="text"  name="Email"placeholder='Email'  className=' w-full border border-gray-400 py-1 px-2 rounded' required /> 
+          <textarea
+          onChange={(e)=>setMessage(e.target.value)}
+           placeholder='Message' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
           </div>
          
          <button className="bg-[#37CA2A] mt-2 rounded-md 
