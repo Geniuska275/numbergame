@@ -3,7 +3,7 @@ import React from 'react'
 function Product({images, name, description}) {
   return (
     <div className='w-[300px] shadow-lg p-[20px] rounded'>
-        <img src={images} className='w-full cover mt-2'/>
+        <img src={images} className='w-full h-[200px] contain mt-2'/>
         <h1 className='font-extrabold font-[lato]  text-2xl mb-2'> {description}</h1>
         <p className='font-bold font-[lato] text-[#4A4E55] text-sm mb-2'>{name}</p>
          
