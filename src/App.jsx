@@ -33,7 +33,7 @@ function App() {
     </Routes>
     <div style={{
         position:"fixed",
-        bottom:"40px",
+        bottom:"70px",
         background:" #37CA2A",
         width:"55px",
         height:"55px",
