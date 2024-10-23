@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { LiaCopyrightSolid } from "react-icons/lia";
 export default function Footer() {
   return (
     <div className='footer bg-[#EDF2EA]'>
@@ -44,7 +45,7 @@ export default function Footer() {
             </div>
             <div className='space' >
             <h1 className='font-extrabold font-[lato] mb-2'> Follow Us</h1>
-            <div className='flex justify-between  items-center mb-[90px]'>
+            <div className='flex justify-between gap-2 items-center mb-[90px]'>
               <a href=''>
                <FaFacebook className='text-2xl hover:bg-blue' />
               </a>
@@ -60,7 +61,11 @@ export default function Footer() {
 
 
         </div>
-        <h1 className='m-5 text-center'>copyright GreenFusion Energy.</h1>
+        <div className='flex items-center justify-center gap-2'>
+        <LiaCopyrightSolid />
+
+        <h1 className='m-5 text-center'>copyright 2024 GreenFusion Energy.</h1>
+        </div>
 
 
 
