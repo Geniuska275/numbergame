@@ -42,7 +42,7 @@ body{
 }
 
 .footer{
-    padding: 80px;
+    padding: 20px;
 }
 .Foot{
     display: flex;
@@ -271,10 +271,12 @@ body{
     .footer{
         border-radius: 10px;
         margin: 10px;
+       
     }
     .Foot{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2);
+        margin-right: 120px;
     }
     .space{
         margin-bottom: 10px;
