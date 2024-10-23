@@ -1,5 +1,6 @@
 import React from 'react'
 import video from "./solar.mp4"
+import { Link } from 'react-router-dom'
 function Hero() {
   return (
     <div className='Hero'>
@@ -22,11 +23,13 @@ function Hero() {
             guaranteed.
             </p>
             <div className='flex gap-3 mt-5'>
-            <a href="https://wa.me/+2347032188798"> 
+            <Link to="About-Us">
          <button className="bg-[#37CA2A]  rounded-md 
-           font-[lato] px-6 py-2 text-black shadow-lg hover:bg-[#37CA3A] duration-500">Learn More</button>
-         </a>
-         <a href="https://wa.me/+2347032188798"> 
+           font-[lato] px-6 py-2 text-black shadow-lg hover:bg-[#37CA3A]
+            duration-500">Learn More</button>
+           </Link>
+         
+         <a href="https://wa.me/+2348036808184"> 
          <button className="bg-white  rounded-md 
            font-[lato] px-6 py-2 text-black shadow-lg hover:bg-[#37CA3A] duration-500">Book Now</button>
          </a>

@@ -58,7 +58,7 @@ function App() {
         justifyContent:"center"
         }}
         >
-        <a href="https://wa.me/+2347032188798">     
+        <a href="https://wa.me/+2348036808184">     
         <FaWhatsapp color='white' size={25} />
       </a>
         </div>
