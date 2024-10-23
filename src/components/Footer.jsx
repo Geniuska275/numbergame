@@ -55,13 +55,10 @@ export default function Footer() {
               <a href=''>
               <FaInstagram className='text-2xl' />
               </a>
-        </div>
-                
+              </div>        
             </div>
-
-
         </div>
-        <div className='flex items-center justify-center gap-2'>
+        <div className='flex items-center justify-center gap-1'>
         <LiaCopyrightSolid />
 
         <h1 className='m-5 text-center'>copyright 2024 GreenFusion Energy.</h1>
