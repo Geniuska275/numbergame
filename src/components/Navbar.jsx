@@ -2,6 +2,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 // import logo from "./real.jpeg";
 import { Link, useNavigate ,useLocation} from "react-router-dom";
 import { useState, useEffect } from "react";
+import logo from "./Glogo.jpeg"
 
 
 
@@ -34,8 +35,11 @@ export default function Navbar(){
                 <div className="flex items-center justify-between h-16">
                     {/* navbar logo */}
                 <Link to="/">
-                {/* <img src={logo} style={{width:"160px",height:"80px"}} className="logo"/> */}
+                <div className="flex gap-1 items-center ">
+
+                <img src={logo}  className="w-10 h-10 rounded-full"/>
                 <h1 className="font-[lato] text-[#37CA2A] font-bold text-2xl ">GreenFusion.</h1>
+                </div>
                 </Link>
                 {/* end */}
                 {/* navbar links */}
