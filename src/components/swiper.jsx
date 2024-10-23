@@ -19,7 +19,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 function Swipers() {
   return (
     <div className="container">
-      <h1 className="heading">Flower Gallery</h1>
+      <h1 className="font-bold text-center border-[#37CA2A] font-[lato] text-3xl ">Our Team</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -42,38 +42,62 @@ function Swipers() {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={lawrence} alt="slide_image" />
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={lawrence} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>
+            Lawrence Onaudhe</h1>
+        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 text-center mt-2'>
+            Head Administration</p>
+       </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={emmanuel} alt="slide_image" />
-        </SwiperSlide>
+      
         <SwiperSlide>
         <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
         <img src={emmanuel} className='w-full h-[320px]' />
-        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>Emmanuel</h1>
-        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 text-center mt-2'>Senior</p>
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>Ehigiamusoe Emmanuel</h1>
+        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 text-center mt-2'>Head Production and Installation</p>
        </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={isaac} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={victory} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={abraham} alt="slide_image" />
-        </SwiperSlide>
-
-
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={victory} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>Victory Iyoha</h1>
+        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 text-center mt-2'>Head Training</p>
         </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={abraham} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>Atuba Abraham</h1>
+        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 text-center mt-2'>Head Marketing</p>
+       </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={monday} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>
+            Monday Erhunwmunse</h1>
+        <p className='font-bold font-[lato] text-sm text-[#4A4E55] mb-2 
+        text-center mt-2'>Head Research</p>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={isaac} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>
+            Osarenkhoe Isaac</h1>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className='w-[300px] h-[400px] shadow-lg mb-2 rounded-md'>
+        <img src={vincent} className='w-full h-[320px]' />
+        <h1 className='font-bold font-[lato] text-2xl mb-2 text-center mt-2'>
+            Vincent Okpefa</h1>
+        </div>
+        </SwiperSlide>
+
+
+       
       </Swiper>
     </div>
   )
