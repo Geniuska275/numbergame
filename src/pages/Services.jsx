@@ -10,9 +10,12 @@ export default function Services() {
       <div className='bg-white shadow-lg w-full p-2
            '></div>
            <div className='services'>
-           <Service/>
-           <Service/>
-           <Service/>
+           <Service text="CCTV Camera Installation"/>
+           <Service text="Solar System Installation"/>
+           <Service text="Electric  Fencing"/>
+           <Service text="House Wiring"/>
+           <Service text="Solar Training Classes"/>
+
            </div>
     </div>
   )
