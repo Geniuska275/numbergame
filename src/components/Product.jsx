@@ -7,10 +7,12 @@ function Product({images, name, description}) {
         <h1 className='font-extrabold font-[lato]  text-2xl mb-2'> {description}</h1>
         <p className='font-bold font-[lato] text-[#4A4E55] text-sm mb-2'>{name}</p>
          
-         <button className="bg-[#37CA2A]
+        <a href='tel:+2348036808184'>
+          <button className="bg-[#37CA2A]
           md: rounded-md w-full
-           font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#37CA3A] duration-500">SHOP NOW</button>
+          font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#37CA3A] duration-500">SHOP NOW</button>
         
+          </a> 
     </div>
   )
 }
