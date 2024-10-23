@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <div className='footer bg-[#EDF2EA]'>
@@ -26,9 +27,10 @@ export default function Footer() {
               </div>
             <div className='space' >
                 <h1 className='font-extrabold font-[lato] mb-2'> Company</h1>
-                <a href='/About-Us'>
+                <Link
+                 to="/About-Us">
                     <h2 className='text-sm text-[#4A4E55] mb-2 hover:text-[#37CA2A]'>About us</h2>
-                </a>
+                </Link>
                 <a href='/Products'>
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Products</h2>
                 </a>
