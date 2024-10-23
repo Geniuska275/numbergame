@@ -26,17 +26,17 @@ export default function Footer() {
               </div>
             <div className='space' >
                 <h1 className='font-extrabold font-[lato] mb-2'> Company</h1>
-                <a>
+                <a href='/About-Us'>
                     <h2 className='text-sm text-[#4A4E55] mb-2 hover:text-[#37CA2A]'>About us</h2>
                 </a>
-                <a>
+                <a href='/Products'>
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Products</h2>
                 </a>
-                <a>
+                <a href='/Services'>
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Services</h2>
                 </a>
-                <a>
-                    <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Our Staff</h2>
+                <a href='/'>
+                    <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Our Team</h2>
                 </a>
                 
             </div>
