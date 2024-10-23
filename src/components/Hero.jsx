@@ -7,7 +7,8 @@ function Hero() {
         <video  src={video} muted autoPlay loop className='video' />
         <div className='bg-overlay'></div>
         <div className='display  mt-[150px]'>
-            <h1 className='font-bold text-[#37CA2A] text-5xl font-[lato] mb-3'>
+            <h1 className='font-bold text-[#37CA2A] 
+            text-5xl font-[lato] mb-3'>
                 Our Vision</h1>
             <h1 className='font-bold text-[#ffffff] text-2xl font-[lato] mb-1'>            
             Providing Affordable and Innovative Solar Energy Solutions.</h1>

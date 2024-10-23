@@ -6,6 +6,9 @@ import Service from '../components/Service'
 import { MdArrowOutward } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import AboutUs from './AboutUs'
+import Team from '../components/team'
+import Swiper from '../components/swiper'
+import Swipers from '../components/swiper'
 
 export default function Homepage() {
   return (
@@ -30,6 +33,7 @@ export default function Homepage() {
            <Service/>
 
            </div>
+           <Swipers/>
         
        
     </div>
