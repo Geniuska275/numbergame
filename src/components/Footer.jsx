@@ -31,12 +31,12 @@ export default function Footer() {
                  to="/About-Us">
                     <h2 className='text-sm text-[#4A4E55] mb-2 hover:text-[#37CA2A]'>About us</h2>
                 </Link>
-                <a href='/Products'>
+                <Link to="/Products">         
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Products</h2>
-                </a>
-                <a href='/Services'>
+                </Link>
+                <Link to="/Services">        
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Services</h2>
-                </a>
+                </Link>
                 <a href='/'>
                     <h2 className='text-sm text-[#4A4E55]  mb-2 hover:text-[#37CA2A]'>Our Team</h2>
                 </a>
@@ -44,11 +44,16 @@ export default function Footer() {
             </div>
             <div className='space' >
             <h1 className='font-extrabold font-[lato] mb-2'> Social Media</h1>
-            <div className='flex justify-between gap-4 items-center mb-[90px]'>
-            <FaFacebook className='text-2xl' />
+            <div className='flex justify-between  items-center mb-[90px]'>
+              <a href=''>
+               <FaFacebook className='text-2xl hover:bg-blue' />
+              </a>
+              <a href="">
             <BsTwitterX className='text-2xl' />
-          <FaInstagram className='text-2xl' />
-           <FaLinkedin  className='text-2xl'/>
+              </a>
+              <a href=''>
+              <FaInstagram className='text-2xl' />
+              </a>
         </div>
                 
             </div>
