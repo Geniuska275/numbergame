@@ -43,7 +43,7 @@ export default function Footer() {
                 
             </div>
             <div className='space' >
-            <h1 className='font-extrabold font-[lato] mb-2'> Social Media</h1>
+            <h1 className='font-extrabold font-[lato] mb-2'> Follow Us</h1>
             <div className='flex justify-between  items-center mb-[90px]'>
               <a href=''>
                <FaFacebook className='text-2xl hover:bg-blue' />
