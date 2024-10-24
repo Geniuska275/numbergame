@@ -113,7 +113,7 @@ System Design and Planning, installation and wiring."/>
            <div className='flex justify-between p-[20px]'> 
 
            </div>
-           <div className='p-[80px]'>
+           <div className='p-[40px]'>
 
            <Slider {...settings}>
          
