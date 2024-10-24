@@ -47,7 +47,7 @@ System Design and Planning, installation and wiring."/>
 
            </div>
            
-           <Swipers/>
+        <Team/>
         
        
     </div>
