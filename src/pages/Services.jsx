@@ -43,7 +43,7 @@ export default function Services() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2
+         
         }
       },
       {
