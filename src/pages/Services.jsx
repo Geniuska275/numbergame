@@ -109,14 +109,11 @@ Solar Energy Fundamentals,
 System Design and Planning, installation and wiring."/>
 
            </div>
-           <h1 className='font-bold font-[lato] text-center text-2xl'>Installations</h1>
-           <div className='flex justify-between p-[20px]'> 
-
-           </div>
+          
            <div className='p-[40px]'>
 
+           <h1 className='font-bold font-[lato] text-center text-2xl mb-4'>Installations</h1>
            <Slider {...settings}>
-         
 
             {installations.map((install)=><Installation data={install}/>)}
             
