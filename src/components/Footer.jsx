@@ -46,13 +46,13 @@ export default function Footer() {
             <div className='space' >
             <h1 className='font-extrabold font-[lato] mb-2'> Follow Us</h1>
             <div className='flex justify-between gap-2 items-center mb-[90px]'>
-              <a href=''>
+              <a href='https://Facebook.com/GFESTECH'>
                <FaFacebook className='text-2xl hover:bg-blue' />
               </a>
               <a href="">
             <BsTwitterX className='text-2xl' />
               </a>
-              <a href=''>
+              <a href='https://www.instagram.com/p/DBd6zy-tGg-/?igsh=MTJmMTd5aGZqaGRoZQ=='>
               <FaInstagram className='text-2xl' />
               </a>
               </div>        
@@ -61,7 +61,7 @@ export default function Footer() {
         <div className='flex items-center justify-center gap-1'>
         <LiaCopyrightSolid />
 
-        <h1 className='m-5 text-center'>copyright 2024 GreenFusion Energy.</h1>
+        <h1 className='m-5 text-center'>Copyright 2024 GreenFusion Energy.</h1>
         </div>
 
 
