@@ -9,6 +9,7 @@ import AboutUs from './AboutUs'
 import Team from '../components/team'
 import Swiper from '../components/swiper'
 import Swipers from '../components/swiper'
+import Testimonials from '../components/Testimonials'
 
 export default function Homepage() {
   return (
@@ -26,6 +27,7 @@ export default function Homepage() {
             </button>
            </Link>
            </div>
+           
            <div className='services'>
            <Service text="CCTV Camera Installation" paragraph="Professional technicians from the company handle the actual installation, ensuring that all cameras are correctly mounted and positioned for optimal coverage. They also run the necessary cabling or set up wireless networks to ensure smooth communication between the cameras and the recording devices. Proper camera angles, lighting considerations, and concealment (if necessary) are also handled during installation."/>
            <Service text="Solar System Installation" paragraph=" Professional technicians carry out the actual installation, which includes securely mounting the solar panels on the roof or ground, connecting the panels to the inverter, and wiring the system to the property’s electrical grid. Safety is a priority during installation, and the company ensures that all components are installed correctly and adhere to industry standards."/>
@@ -48,6 +50,8 @@ System Design and Planning, installation and wiring."/>
            </div>
            
         <Team/>
+
+        <Testimonials/>
         
        
     </div>
