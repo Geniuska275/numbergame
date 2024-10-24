@@ -95,7 +95,7 @@ function Team() {
     <div>
       <div className='p-[40px]'>
 
-<h1 className='font-bold font-[lato] text-center text-2xl mb-4'>Our Team</h1>
+<h1 className='font-bold font-[lato] text-center text-2xl mb-4 text-[#4A4E55]'>Our Team</h1>
 <Slider {...settings}>
 
  

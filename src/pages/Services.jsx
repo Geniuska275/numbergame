@@ -112,7 +112,7 @@ System Design and Planning, installation and wiring."/>
           
            <div className='p-[40px]'>
 
-           <h1 className='font-bold font-[lato] text-center text-2xl mb-4'>Installations</h1>
+           <h1 className='font-bold font-[lato] text-center text-[#4A4E55] text-2xl mb-4'>Installations</h1>
            <Slider {...settings}>
 
             {installations.map((install)=><Installation data={install}/>)}
