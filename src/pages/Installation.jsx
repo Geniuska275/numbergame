@@ -38,11 +38,13 @@ function Installation() {
           
     ]
     const installation=installations.find(i=>i.id===parseInt(id))
-    console.log(installation)
 
   return (
     <div className='p-[80px]'>
+            <h1 className='font-bold text-2xl mb-2 text-center'>{installation.desc}</h1>
+            
         <div className='install'>
+
         {installation.images.map(image=>(
             <img src={image} className='h-[200px] w-[200px] mb-2'/>
         ))}
