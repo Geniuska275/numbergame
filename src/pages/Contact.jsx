@@ -31,7 +31,7 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .send('service_zvdl20p', 'template_9hceqxu', 
+      .send('service_zvdl20p', 'template_fva1ypj', 
         templateParams,
         public_key
       )
