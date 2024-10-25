@@ -12,8 +12,7 @@ function Testimonials() {
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
-        
-        dots:true,
+         dots: true,
         infinite: true,
         autoplaySpeed: 3000,
         cssEase: "linear",
@@ -21,10 +20,10 @@ function Testimonials() {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               slidesToScroll: 3,
-              dots:true
-             
+              infinite: true,
+              dots: true
             }
           },
           {
@@ -83,7 +82,7 @@ function Testimonials() {
        
     ]
   return (
-    <div className='p-[60px]'>
+    <div className='p-[40px]'>
         <h1 className='font-bold font-[lato] text-center text-2xl mb-4 text-[#4A4E55]'>Testimonials</h1>
       <Slider {...settings}>
     {Testimonials.map((testimony)=><Testimony data={testimony}/>)}
