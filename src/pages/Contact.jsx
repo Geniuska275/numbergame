@@ -38,10 +38,10 @@ function Contact() {
       .then(
         () => {
           toast.success("Email Sent to GREENFUSION")
-          setName("")
-          setEmail("")
-          setMessage("")
-          setLastName("")
+          setName(" ")
+          setEmail(" ")
+          setMessage(" ")
+          setLastName(" ")
         },
         (error) => {
           toast.error("Email Not Sent to GREENFUSION")
