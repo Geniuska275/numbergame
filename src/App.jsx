@@ -14,6 +14,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
+import Installation from "./pages/Installation";
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Route path="/Services" element={<Services/>} />
       <Route path="/Products" element={<Products/>} />
       <Route path="/Contact" element={<Contact/>} />
+      <Route path="/Installation/:id" element={<Installation/>} />
       
     </Routes>
     <div style={{

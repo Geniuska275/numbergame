@@ -251,7 +251,18 @@ body{
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
 }
+.install{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 @media screen and (max-width: 600px) {
+  .install{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 20px;
+  }
     .services{
         flex-direction: column;
         justify-content: center;
