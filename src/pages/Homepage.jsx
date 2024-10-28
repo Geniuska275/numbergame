@@ -17,7 +17,7 @@ export default function Homepage() {
     <div>
         <Hero/>
         <Statistics/>
-         {/* <AboutUs/> */}
+         <AboutUs/>
              <h1 className='text-center font-bold text-3xl text-[#4A4E55] mt-4'> Trainings</h1>
              <Trainings text="Edojobs Training"/>
         <div className='flex justify-between items-center mt-4 '>

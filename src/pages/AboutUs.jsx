@@ -27,9 +27,9 @@ export default function AboutUs() {
         
         /> 
         <motion.div 
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:100}}
-                    transition={{duration:1}}    
+                     whileInView={{opacity:1,y:0}}
+                     initial={{opacity:0,y:100}}
+                     transition={{duration:0.5}}
            className={` sizes p-5 bg-[#f3fef9] rounded shadow `}>
           <h1 className='text-2xl font-bold font-[lato] text-[#4A4E55] mb-2'>About Us</h1>
           <p className='text-sm'>
