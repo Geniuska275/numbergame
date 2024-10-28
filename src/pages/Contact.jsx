@@ -69,7 +69,7 @@ function Contact() {
                     <FaPhone className='text-xl' />
 
                     </a>
-                   <a  href="tel:+2348036808184" className='text-2xl w-[200px]'>+234 8036808184</a>
+                   <a  href="tel:+2348075362652" className='text-2xl w-[200px]'>+234 8075362652</a>
                   </div>
         <p className='font-bold text-2xl text-[#4A4E55] font-[lato] mb-3'>Follow Our Social Media</p>
         <div className='flex justify-between items-center'>
