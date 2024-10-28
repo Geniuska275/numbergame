@@ -52,8 +52,8 @@ export default function Footer() {
               <a href='https://www.instagram.com/p/DBd6zy-tGg-/?igsh=MTJmMTd5aGZqaGRoZQ=='>
               <FaInstagram className='text-2xl' />
               </a>
-              <a href="https:/x.com/Greenfusio74939">
-            <BsTwitterX className='text-3xl' />
+              <a href="https://x.com/Greenfusio74939">
+            <BsTwitterX className='text-2xl' />
             </a>
               </div>        
             </div>
