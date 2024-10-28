@@ -4,6 +4,7 @@ import Service from '../components/Service'
 import { MdArrowOutward } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { motion } from "framer-motion"
 import main20 from "./main20.jpg";
 import main10 from "./main10.jpg";
 import main1 from "./main1.jpg";
@@ -38,6 +39,18 @@ import Installation from '../components/installation';
 import Slider from "react-slick";
 
 
+const iconVariants=(duration)=>({
+  initial:{x:-10},
+  animate:{
+    x:[10,-10],
+    transition:{
+       duration:duration,
+       ease:"linear",
+       repeat:Infinity,
+       repeatType:"reverse"
+    }
+  }
+ })
 
 export default function Services() {
   var settings = {
@@ -127,7 +140,11 @@ export default function Services() {
       <Banner text="Services"/>
       <div className='bg-white shadow-lg w-full p-2
            '></div>
-           <div className='services'>
+           <motion.div
+             variants={iconVariants(2.6)}
+             initial="initial"
+             animate="animate"
+             className='services'>
            <Service text="CCTV Camera Installation" paragraph="Professional technicians from the company handle the actual installation, ensuring that all cameras are correctly mounted and positioned for optimal coverage. They also run the necessary cabling or set up wireless networks to ensure smooth communication between the cameras and the recording devices. Proper camera angles, lighting considerations, and concealment (if necessary) are also handled during installation."/>
            <Service text="Solar System Installation" paragraph=" Professional technicians carry out the actual installation, which includes securely mounting the solar panels on the roof or ground, connecting the panels to the inverter, and wiring the system to the property’s electrical grid. Safety is a priority during installation, and the company ensures that all components are installed correctly and adhere to industry standards."/>
            <Service text="Electric  Fencing" paragraph="Once the design and materials are approved, experienced technicians handle the installation process. This involves:
@@ -146,7 +163,7 @@ Grounding and Safety Systems: Proper grounding is essential to prevent electrica
 Solar Energy Fundamentals,
 System Design and Planning, installation and wiring."/>
 
-           </div>
+           </motion.div>
           
            <div className='p-[40px]'>
 
