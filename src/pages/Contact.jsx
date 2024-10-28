@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
+import {motion} from "framer-motion"
 import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
@@ -57,7 +58,11 @@ function Contact() {
       <div className='bg-white shadow-lg w-full p-2
            '></div>
      <div className='Form'>
-      <div className='push'>
+      <motion.div
+                    whileInView={{opacity:1,x:0}}
+                    initial={{opacity:0,x:-100}}
+                    transition={{duration:1}}
+                    className='push'>
         <h2 className='font-[lato] font-bold text-md mb-2'>Contact Us </h2>
         <h1 className='font-bold text-2xl text-[#4A4E55] font-[lato]'>
           Head Office</h1>
@@ -84,8 +89,12 @@ function Contact() {
         </a>
         
         </div>
-      </div>
-      <div className=' h-[300px] w-[400px] '>
+      </motion.div>
+      <motion.div
+                    whileInView={{opacity:1,x:0}}
+                    initial={{opacity:0,x:100}}
+                    transition={{duration:1}}
+                    className=' h-[300px] w-[400px] '>
 
         <form  ref={form} onSubmit={sendEmail}>
           <div className='grid grid-cols-2 gap-5 for'> 
@@ -118,7 +127,7 @@ function Contact() {
        
         
         </form>
-      </div>
+      </motion.div>
 
 
 
