@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { MdOutlineEnergySavingsLeaf } from "react-icons/md";
 
 function Service({text, paragraph}) {
-  
+   
   return (
     <>
       

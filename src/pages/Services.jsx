@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Banner from '../components/Banner'
 import Service from '../components/Service'
 import { MdArrowOutward } from "react-icons/md";
@@ -21,7 +21,7 @@ import main5k from "./main5k.jpg";
 import a60 from "./60a.jpg";
 import b60 from "./60b.jpg";
 import c60 from "./60c.jpg";
-
+import logo from "./Glogo.jpeg"
 
 import a5 from "./5a.jpg";
 import b5 from "./5b.jpg";
@@ -53,6 +53,7 @@ const iconVariants=(duration)=>({
  })
 
 export default function Services() {
+  const [loading,setLoading]=useState(true)
   var settings = {
   
     speed: 200,
@@ -134,9 +135,29 @@ export default function Services() {
       powers: ""
     },
   ])
-  return (
-    <div>
 
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false)
+    },3000)
+  },[])
+  return (
+    <div className='content'>
+   
+
+        <div>
+
+          {
+            loading &&
+
+           <div className='loader'>
+            <div className='flex  justify-center items-center mt-[300px]'>
+              <div className='flex items-center justify-center w-[80px] h-[80px] rounded-full border'>
+                <img src={logo} className='w-[70px] h-[70px] rounded-full'/>
+             </div>
+            </div>
+         </div>
+          }
       <Banner text="Services"/>
       <div className='bg-white shadow-lg w-full p-2
            '></div>
@@ -156,7 +177,7 @@ Installing Fence Panels: The panels or pickets are then attached to the posts, e
 
 Running Wires: Installing electrical cables throughout the house.
 Installing Breaker Panels: The breaker or fuse panel is the control center for the home’s electrical system.
- 
+
 Grounding and Safety Systems: Proper grounding is essential to prevent electrical shocks and protect the home’s electrical system."/>
            <Service text="Solar Training Classes" paragraph="The solar training classes are developed to provide both theoretical knowledge and hands-on skills essential for a career in the solar industry. The curriculum typically covers key areas such as:
 
@@ -180,5 +201,7 @@ System Design and Planning, installation and wiring."/>
 
 
     </div>
+
+</div>
   )
 }
