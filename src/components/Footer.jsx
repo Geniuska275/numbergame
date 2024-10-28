@@ -49,12 +49,12 @@ export default function Footer() {
               <a href='https://Facebook.com/GFESTECH'>
                <FaFacebook className='text-2xl hover:bg-blue' />
               </a>
-              <a href="">
-            <BsTwitterX className='text-2xl' />
-              </a>
               <a href='https://www.instagram.com/p/DBd6zy-tGg-/?igsh=MTJmMTd5aGZqaGRoZQ=='>
               <FaInstagram className='text-2xl' />
               </a>
+              <a href="https:/x.com/Greenfusio74939">
+            <BsTwitterX className='text-3xl' />
+            </a>
               </div>        
             </div>
         </div>

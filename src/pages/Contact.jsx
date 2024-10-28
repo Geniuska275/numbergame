@@ -73,10 +73,16 @@ function Contact() {
                   </div>
         <p className='font-bold text-2xl text-[#4A4E55] font-[lato] mb-3'>Follow Our Social Media</p>
         <div className='flex justify-between items-center'>
-        <FaFacebook className='text-3xl' />
+        <a href='https://Facebook.com/GFESTECH'>
+               <FaFacebook className='text-2xl hover:bg-blue' />
+              </a>
+              <a href='https://www.instagram.com/p/DBd6zy-tGg-/?igsh=MTJmMTd5aGZqaGRoZQ=='>
+              <FaInstagram className='text-2xl' />
+              </a>
+        <a href="https:/x.com/Greenfusio74939">
         <BsTwitterX className='text-3xl' />
-        <FaInstagram className='text-3xl' />
-        <FaLinkedin  className='text-3xl'/>
+        </a>
+        
         </div>
       </div>
       <div className=' h-[300px] w-[400px] '>
