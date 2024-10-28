@@ -22,10 +22,7 @@ export default function AboutUs() {
 
   return (
     <div className='About flex justify-around  p-[20px]'> 
-        <motion.img 
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:-100}}
-                    transition={{duration:1}} src='https://media.istockphoto.com/id/1405880267/photo/two-engineers-installing-solar-panels-on-roof.jpg?s=612x612&w=0&k=20&c=OvQDbJaTnMM4jPfIA3y5vrO88i98NZJRahZtnYFZCq0='
+        <img  src='https://media.istockphoto.com/id/1405880267/photo/two-engineers-installing-solar-panels-on-roof.jpg?s=612x612&w=0&k=20&c=OvQDbJaTnMM4jPfIA3y5vrO88i98NZJRahZtnYFZCq0='
          className=' size w-[500px] h-[380px] rounded-lg shadow-lg'
         
         /> 
