@@ -16,7 +16,7 @@ import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer";
 import Installation from "./pages/Installation";
 
-
+import {motion} from "framer-motion"
 
 
 
@@ -65,7 +65,13 @@ function App() {
       </a>
         </div>
       </div>
-    <Footer/>
+
+      <motion.div 
+           whileInView={{opacity:1,y:0}}
+           initial={{opacity:0,y:100}}
+           transition={{duration:0.5}}>
+      <Footer/>
+      </motion.div>
     
   </Router>
 
