@@ -3,6 +3,7 @@
 @tailwind utilities;
 body{
     font-family: lato,sans-serif;
+    background-color: #ffffff;
 }
 .Hero{
     width: 100%;

@@ -65,7 +65,7 @@ function Contact() {
                 <br></br> off Akpakpava road,<br></br> Benin City, <br></br>Edo State.
                 </p>
                   <div className='flex gap-2 mt-2 mb-2 items-center'>
-                  <a href='tel:+2348036808184'>
+                  <a href='tel:+2348075362652'>
                     <FaPhone className='text-xl' />
 
                     </a>
