@@ -19,31 +19,31 @@ export default function Products() {
   },[])
   const [products,setProducts]=useState([{
     images:image1,
-    name:"18 inch Solar Standing Fan",
+    name:"Available",
     description:"18 inch Solar Standing Fan",
     price:""
   },
   {
     images:image2,
-    name:"lorem_214523660",
+    name:"Available",
     description:"Beta Life Box",
     price:""
   },
   {
     images:image3,
-    name:"18 inch Solar Standing Fan",
+    name:"Available",
     description:"18 inch Solar Standing Fan",
     price:""
   },
   {
     images:image4,
-    name:"lorem_214523660",
+    name:"Available",
     description:"Solar Mini Kit",
     price:""
   },
   {
     images:image5,
-    name:"lorem_214523660",
+    name:"Available",
     description:"Desktop Solar Fan",
     price:""
   }
