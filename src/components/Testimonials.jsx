@@ -79,7 +79,6 @@ function Testimonials() {
             product:"10kva/48V",
             testimony:"Do you know that since I installed solar system for my shop and ice block business,I have been experiencing business boom because I no longer disappoint my customers again as they Nick named me mama cool. Green fusion thanks for helping my business succeed."
         },
-       
     ]
   return (
     <div className='p-[40px]'>

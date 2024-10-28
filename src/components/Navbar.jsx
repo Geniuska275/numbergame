@@ -48,7 +48,7 @@ export default function Navbar(){
 
               <div className=" hidden md:flex  justify-between items-center p-4 gap-5 mr-[40px] font-[lato]">
             <Link  to="/" 
-             className={`${activeTab =="Cryptocurrency" ? "text-[#4A4E55]":"text-[#4A4E55]"} no-underline font-bold`}
+             className={`${activeTab =="home" ? "text-[#4A4E55]":"text-[#4A4E55]"} no-underline font-bold`}
              
              >
               Home
