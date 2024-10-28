@@ -139,7 +139,7 @@ export default function Services() {
   useEffect(()=>{
     setTimeout(()=>{
       setLoading(false)
-    },3000)
+    },4000)
   },[])
   return (
     <div className='content'>

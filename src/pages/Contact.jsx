@@ -9,15 +9,21 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import {motion} from "framer-motion"
 import 'react-toastify/dist/ReactToastify.css';
-
+import { useEffect } from 'react';
+import logo from "./Glogo.jpeg"
 function Contact() {
   const [name,setName]=useState("")
   const [lastname,setLastName]=useState("")
 
   const [email,setEmail]=useState("")
   const [message,setMessage]=useState("")
-   console.log(email)
-
+  
+   const [loading,setLoading]=useState(true)
+   useEffect(()=>{
+     setTimeout(()=>{
+       setLoading(false)
+     },4000)
+   },[])
   const templateParams={
     from_name:name,
     from_email:email,
@@ -53,6 +59,18 @@ function Contact() {
 
   return (
     <div>
+
+{
+            loading &&
+
+           <div className='loader'>
+            <div className='flex  justify-center items-center mt-[300px]'>
+              <div className='flex items-center justify-center w-[80px] h-[80px] rounded-full border'>
+                <img src={logo} className='w-[70px] h-[70px] rounded-full'/>
+             </div>
+            </div>
+         </div>
+          }
       <Banner text="Contact"/>
       <ToastContainer className="mt-[80px]" />
       <div className='bg-white shadow-lg w-full p-2
