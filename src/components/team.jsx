@@ -86,7 +86,7 @@ function Team() {
             role:" "
         },
         {
-            name:"Vincent  Ikpefa",
+            name:"Vincent  Okpefa",
             image:vincent,
             role:" "
         },
