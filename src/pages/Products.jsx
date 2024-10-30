@@ -17,16 +17,17 @@ export default function Products() {
       setLoading(false)
     },4000)
   },[])
-  const [products,setProducts]=useState([{
+  const [products,setProducts]=useState([
+    {
+      images:image2,
+      name:"Available",
+      description:"Beta Life Box",
+      price:""
+    },
+    {
     images:image1,
     name:"Available",
     description:"18 inch Solar Standing Fan",
-    price:""
-  },
-  {
-    images:image2,
-    name:"Available",
-    description:"Beta Life Box",
     price:""
   },
   {
