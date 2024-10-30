@@ -20,7 +20,7 @@ function Hero() {
             <h1 className='font-bold text-[#37CA2A] 
             text-4xl font-[lato] mt-5'>
                 Our Mission</h1>
-            <p className='font-bold text-white text-lg font-[lato]  mt-5' >
+            <p className='font-bold text-white text-lg font-[lato]  mt-1' >
                 To be one of the Leading provider of solar energy solutions.
                 </p>
           
