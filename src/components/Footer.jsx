@@ -20,6 +20,14 @@ export default function Footer() {
             </div>
             <div className='space'>
                 <div>
+                <h1 className='font-extrabold font-[lato] mb-2'>Benin Branch</h1>
+                <p  className='text-sm text-[#4A4E55] mb-[20px]'> 104, 2nd East Circular Road,<br></br> opposite St.Pauls Anglican Church,
+                <br></br> before Enerhen junction ,<br></br>Benin City, Edo State.
+                </p>
+                </div>
+              </div>
+            <div className='space'>
+                <div>
                 <h1 className='font-extrabold font-[lato] mb-2'>Warri Branch</h1>
                 <p  className='text-sm text-[#4A4E55] mb-[20px]'> 28, Effurum Sapele Road,<br></br> opposite unity bank,
                 <br></br> before Enerhen junction ,<br></br>warri Delta State.
