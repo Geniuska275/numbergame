@@ -29,7 +29,7 @@ function Hero() {
             duration-500">Learn More</button>
            </Link>
          
-         <a href="https://wa.me/+2348036808184"> 
+         <a href="https://wa.me/+2348075362652"> 
          <button className="bg-white  rounded-md 
            font-[lato] px-6 py-2 text-black shadow-lg hover:bg-[#37CA3A] duration-500">Book Now</button>
          </a>
