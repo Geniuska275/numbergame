@@ -78,7 +78,7 @@ function Team() {
         {
             name:"Atuba  Abraham",
             image:abraham,
-            role:"Head Research"
+            role:"Head Marketing"
         },
         {
             name:"Osarenkhoe  Isaac",
