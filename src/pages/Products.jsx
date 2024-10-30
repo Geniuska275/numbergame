@@ -5,8 +5,8 @@ import image1 from "./standingfan.jpeg"
 import image2 from "./standingfans.jpeg"
 
 import image3 from "./tablefan.jpeg"
-import image4 from "./minikit.jpeg"
-import image5 from "./betalife.jpeg"
+import image4 from "./solar.jpeg"
+import image5 from "./box.jpeg"
 import logo from "./Glogo.jpeg"
 import { useEffect } from 'react'
 
