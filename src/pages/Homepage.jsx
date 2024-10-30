@@ -130,7 +130,7 @@ System Design and Planning, installation and wiring."/>
           <textarea
           value={message}
           onChange={(e)=>setMessage(e.target.value)}
-          placeholder='Message' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
+          placeholder='Feedback' name="Message"  className=' w-full  mt-6 border border-gray-400 py-1 px-2 rounded'required />
           </div>
          
          <button className="bg-[#37CA2A] mt-2 rounded-md 
