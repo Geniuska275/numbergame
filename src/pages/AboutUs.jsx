@@ -10,14 +10,7 @@ const styles={
 export default function AboutUs() {
  const [isOpen,setIsOpen]=useState(false)
  const maxCharacters=300;
- const paragraph= "Green fusion energy resources & technology is a company that specializes in providing and installing solar system for both commercial and residential purposes." +"As a solar company ,our mission is to develop sustainable energy solutions that reduce carbon footprints,saves energy costsand provide long-term value to our numerous customers." +
-"It is true that the awareness for solar system is becoming increasingly important as more people "+
-"become aware of the negative effect of fossil fuel on our environment. " +
-"The cost of generating electricity from solar energy is decreasing, making it a more affordable option. Since the sun provides heat and" +
-"light constantly, solar energy is considered a renewable energy source and an alternative to non renewable sources." + "There are enormous benefits when choosing a reputable solar company like Green Fusion Energy. "
-"Resources & Technology, ranging from our standard quality of installations and equipment, and our" +
-"customer service relationship. We offer high efficient quality products manufactured by reputable " +
-"brands and we also customize as well as professional installation service to suit our clients. "
+ const paragraph= ""
  const text= isOpen ?paragraph.substring(0, maxCharacters) + "...": paragraph;
 
   return (
