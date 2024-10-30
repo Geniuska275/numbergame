@@ -102,8 +102,8 @@ System Design and Planning, installation and wiring."/>
           <div className='flex justify-center items-center'>
           
         <motion.div
-                    whileInView={{opacity:1,x:0}}
-                    initial={{opacity:0,x:50}}
+                    whileInView={{opacity:1,y:0}}
+                    initial={{opacity:0,y:50}}
                     transition={{duration:1}}
                     className=' h-[300px] w-[400px] '>
 
