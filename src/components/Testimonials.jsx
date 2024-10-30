@@ -51,8 +51,8 @@ function Testimonials() {
         },
         {
             name:"Mr. Monday Eboh",
-            product:"1kva",
-            testimony:"Funny enough,my 1kva system has been able to meet our immediate energy demand. With this am going to upgrade to a bigger package that can power all my appliances. However,so is still cheaper."
+            product:"1kva/12V",
+            testimony:"Funny enough,my 1kva system has been able to meet our immediate energy demand. With this am going to upgrade to a bigger package that can power all my appliances. However,solar  is still cheaper."
         },
         {
             name:"Dr. John Adebayo",
@@ -67,17 +67,17 @@ function Testimonials() {
         {
             name:"Mr. Ovie Whiskey",
             product:"5kva/48V",
-            testimony:"Although I had the believe that solar system works,but not to the extent am enjoying now on daily basis. My freezer and fridge always blocked with ice,using my washing machine and other appliances in the house gives us joy as a family. I can't do without listening to news and this installation made it possible. Am over excited and will canvass for more people to go solar. Green fusion thanks for the great job."
-        },
-        {
-            name:"Mrs Beatrice Osaghade",
-            product:"20kva/96V",
-            testimony:"Hmmmmmm...this is mind blowing since I installed solar system in my hotel. How i wished I believed earlier that solar can work like this. I wasted millions powering my hotel with diesel. Now my profit is complete since I installed solar system.Green fusion won my heart."
+            testimony:" Waoooo...this is bomb. Do you know I gave my generator to my neighbour after experiencing a 24/7 solar system power supply. I don't need it anymore. Green Fusion high five for a perfect job."
         },
         {
             name:"Mrs Blessing Omafor Solomon",
             product:"10kva/48V",
             testimony:"Do you know that since I installed solar system for my shop and ice block business,I have been experiencing business boom because I no longer disappoint my customers again as they Nick named me mama cool. Green fusion thanks for helping my business succeed."
+        },
+        {
+            name:"Mrs Beatrice Osaghade",
+            product:"20kva/96V",
+            testimony:"Hmmmmmm...this is mind blowing since I installed solar system in my hotel. How i wished I believed earlier that solar can work like this. I wasted millions powering my hotel with diesel. Now my profit is complete since I installed solar system.Green fusion won my heart."
         },
     ]
   return (
