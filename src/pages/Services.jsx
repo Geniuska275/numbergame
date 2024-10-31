@@ -165,7 +165,7 @@ export default function Services() {
     { id:11,
       images:[Beta,Beta1,Beta2],
       desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
-      powers: ""
+      powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
     },
     // },
     // { id:3,
@@ -203,7 +203,7 @@ export default function Services() {
     { id:1,
       images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,main20l ],
       desc: "20kva / 96V Solar system Installation",
-      powers: ""
+     powers: "30 LED Lights,12 Fans ,8 Tvs,2 Home Theatre,4 Decoders,2 fridge,2 Washing Machine,8 Laptops,4 Freezer,2 blender ,2 Microwave, 2 Pressing Iron,2 Inverter And  2 Boreholes."
     },
     { id:8,
       images:[ Benina,Benin,Benin1,Benin2],
@@ -213,7 +213,7 @@ export default function Services() {
     { id:12,
       images:[ west20,west,west2,west3,west4,west5,west6,west7,west8,west9,west10,west11,west12,west13,west14,west15,west16,west17,west18,west19,west20,west21],
       desc: "Westland Banks Installation",
-      powers: ""
+      
     },
     // { id:10,
     //   images:[main60,a60,b60,c60],
