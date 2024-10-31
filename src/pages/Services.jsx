@@ -54,6 +54,18 @@ import main20c from "./main20c.jpg";
 import main20d from "./main20d.jpg";
 import main20e from "./main20e.jpg";
 import main20f from "./main20f.jpg";
+
+import main20k from "./main20k.jpg";
+import main20ka from "./main20ka.jpg";
+import main20kb from "./main20kb.jpg";
+import main20kc from "./main20kc.jpg";
+import main20ke from "./main20ke.jpg";
+import main20kf from "./main20kf.jpg";
+import main20kg from "./main20kg.jpg";
+import main20kd from "./main20kd.jpg";
+
+
+
 import Installation from '../components/installation';
 
 import Slider from "react-slick";
@@ -150,7 +162,7 @@ export default function Services() {
       powers: ""
     },
     { id:1,
-      images:[main20a,main20b,main20c,main20d,main20e,main20f],
+      images:[main20k,main20ka,main20kb,main20kc,main20kd,main20ke,main20kf,main20kg],
       desc: "20kva Solar system Installation",
       powers: ""
     },

@@ -48,6 +48,14 @@ import f5 from "./5f.jpg";
 import main10 from "./main10.jpg";
 import g5 from "./5g.jpg";
 import h5 from "./5h.jpg";
+import main20k from "./main20k.jpg";
+import main20ka from "./main20ka.jpg";
+import main20kb from "./main20kb.jpg";
+import main20kc from "./main20kc.jpg";
+import main20ke from "./main20ke.jpg";
+import main20kf from "./main20kf.jpg";
+import main20kg from "./main20kg.jpg";
+import main20kd from "./main20kd.jpg";
 import { useState } from 'react';
 function Installation() {
     const {id}=useParams();
@@ -88,7 +96,7 @@ function Installation() {
         powers: ""
       },
       { id:1,
-        images:[main20a,main20b,main20c,main20d,main20e,main20f],
+        images:[main20k,main20ka,main20kb,main20kc,main20kd,main20ke,main20kf,main20kg],
         desc: "20kva Solar system Installation",
         powers: ""
       },
@@ -112,11 +120,11 @@ function Installation() {
             <img src={image} className='h-[350px] w-[400px] mb-2'/>
         ))}
         </div>
-        <div className='install'>
+         <div className='install'>
 
 {installation.images.slice(4,8).map(image=>(
     <img src={image} className='h-[300px] w-[300px] mb-2'/>
-))}
+  ))}
 </div>
     </div>
   )
