@@ -26,7 +26,28 @@ import a60 from "./60a.jpg";
 import b60 from "./60b.jpg";
 import c60 from "./60c.jpg";
 import logo from "./Glogo.jpeg"
+import west from "./west.jpg";
 
+import west2 from "./west2.jpg";
+import west3 from "./west3.jpg";
+import west4 from "./west4.jpg";
+import west5 from "./west5.jpg";
+import west6 from "./west6.jpg";
+import west7 from "./west7.jpg";
+import west8 from "./west8.jpg";
+import west9 from "./west9.jpg";
+import west10 from "./west10.jpg";
+import west11 from "./west11.jpg";
+import west12 from "./west12.jpg";
+import west13 from "./west13.jpg";
+import west14 from "./west14.jpg";
+import west15 from "./west15.jpg";
+import west16 from "./west16.jpg";
+import west17 from "./west17.jpg";
+import west18 from "./west18.jpg";
+import west19 from "./west19.jpg";
+import west20 from "./west20.jpg";
+import west21 from "./west21.jpg";
 import a5 from "./5a.jpg";
 import b5 from "./5b.jpg";
 import c5 from "./5c.jpg";
@@ -72,6 +93,10 @@ import Benin from "./Benin.jpg";
 import Benina from "./Benina.jpg";
 import Benin1 from "./Benin1.jpg";
 import Benin2 from "./Benin2.jpg";
+
+import Beta from "./Beta.jpg";
+import Beta1 from "./Beta1.jpg";
+import Beta2 from "./Beta2.jpg";
 
 import Installation from '../components/installation';
 
@@ -131,12 +156,17 @@ export default function Services() {
       }
     ]
   };
-
+  
   const [installations,setInstallations]=useState([
     // { id:2,
     //   images:[main10,main1,main2,main3,main4,main5],
     //   desc: "1kva / 12volts Inverter Solar system",
     //   powers: " 6 LED Lights,2 Fans,1 TV ,1 Decoder and Home Theater."
+    { id:11,
+      images:[Beta,Beta1,Beta2],
+      desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
+      powers: ""
+    },
     // },
     // { id:3,
     //   images:[main20,main1,main2,main3,main4,main5],
@@ -178,11 +208,16 @@ export default function Services() {
       desc: "Benin Owina River Basin 40Kva/192V Solar System",
       powers: ""
     },
-    { id:9,
-      images:[main60,a60,b60,c60],
-      desc: "60kva/120V Inverter Solar system",
+    { id:12,
+      images:[ west20,west,west2,west3,west4,west5,west6,west7,west8,west9,west10,west11,west12,west13,west14,west15,west16,west17,west18,west19,west20,west21],
+      desc: "Westland Banks Installation",
       powers: ""
     },
+    // { id:10,
+    //   images:[main60,a60,b60,c60],
+    //   desc: "60kva/120V Inverter Solar system",
+    //   powers: ""
+    // },
   ])
 
   useEffect(()=>{

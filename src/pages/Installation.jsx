@@ -63,6 +63,33 @@ import Benin1 from "./Benin1.jpg";
 import Benin2 from "./Benin2.jpg";
 
 
+import Beta from "./Beta.jpg";
+import Beta1 from "./Beta1.jpg";
+import Beta2 from "./Beta2.jpg";
+
+import west from "./west.jpg";
+
+import west2 from "./west2.jpg";
+import west3 from "./west3.jpg";
+import west4 from "./west4.jpg";
+import west5 from "./west5.jpg";
+import west6 from "./west6.jpg";
+import west7 from "./west7.jpg";
+import west8 from "./west8.jpg";
+import west9 from "./west9.jpg";
+import west10 from "./west10.jpg";
+import west11 from "./west11.jpg";
+import west12 from "./west12.jpg";
+import west13 from "./west13.jpg";
+import west14 from "./west14.jpg";
+import west15 from "./west15.jpg";
+import west16 from "./west16.jpg";
+import west17 from "./west17.jpg";
+import west18 from "./west18.jpg";
+import west19 from "./west19.jpg";
+import west20 from "./west20.jpg";
+import west21 from "./west21.jpg";
+
 
 import { useState } from 'react';
 function Installation() {
@@ -113,9 +140,19 @@ function Installation() {
         desc: "Benin Owina River Basin 40Kva/192V Solar System",
         powers: ""
       },
-      { id:9,
+      { id:11,
+        images:[Beta,Beta1,Beta2],
+        desc: "Installation of 100 Beta Life Boxes.",
+        powers: ""
+      },
+      { id:10,
         images:[main60,a60,b60,c60],
         desc: "60kva/120V Inverter Solar system",
+        powers: ""
+      },
+      { id:12,
+        images:[west,west2,west3,west4,west5,west6,west7,west8,west9,west10,west11,west12,west13,west14,west15,west16,west17,west18,west19,west20,west21],
+        desc: "Westland Banks Installation",
         powers: ""
       },
     ])
@@ -136,6 +173,24 @@ function Installation() {
          <div className='install'>
 
 {installation.images.slice(4,8).map(image=>(
+    <img src={image} className='h-[300px] w-[300px] mb-2'/>
+  ))}
+</div>
+<div className='install'>
+
+    {installation.images.slice(9,12).map(image=>(
+    <img src={image} className='h-[300px] w-[300px] mb-2'/>
+  ))}
+     </div>
+     <div className='install'>
+
+{installation.images.slice(13,17).map(image=>(
+    <img src={image} className='h-[300px] w-[300px] mb-2'/>
+  ))}
+</div>
+<div className='install'>
+
+{installation.images.slice(18,22).map(image=>(
     <img src={image} className='h-[300px] w-[300px] mb-2'/>
   ))}
 </div>
