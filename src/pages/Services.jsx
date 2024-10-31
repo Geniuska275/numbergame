@@ -181,22 +181,24 @@ export default function Services() {
     { id:5,
       images:[main3,main3a],
       desc: "3.5kva/ 24Volts Inverter Solar system",
-      powers: ""
+      powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:6,
       images:[lithium1,lithium1a],
       desc: "3.5kva/ 24Volts  Lithium Inverter Solar system",
-      powers: ""
+      powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:9,
       images:[main5a,main5a1,main5a2,main5a3],
       desc: "5kva/48V Inverter Solar system",
-      powers: ""
+      powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter And Borehole"
+     
     },
     { id:7,
       images:[main10a,main10b,main10c,main10d],
       desc: "10kva/48V Inverter Solar system",
-      powers: ""
+      powers: "15 LED Lights,6 Fans ,4 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,4 Laptops,2 Freezer,1 blender ,1 Microwave, 1 Pressing Iron,1 Inverter And Borehole"
+    
     },
     { id:1,
       images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,main20l ],
