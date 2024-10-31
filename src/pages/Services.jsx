@@ -94,9 +94,9 @@ import Benina from "./Benina.jpg";
 import Benin1 from "./Benin1.jpg";
 import Benin2 from "./Benin2.jpg";
 
-import Beta from "./Beta.jpg";
-import Beta1 from "./Beta1.jpg";
-import Beta2 from "./Beta2.jpg";
+import Beta from "./beta.jpg";
+import Beta1 from "./beta1.jpg";
+import Beta2 from "./beta2.jpg";
 
 import Installation from '../components/installation';
 
