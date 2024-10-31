@@ -59,12 +59,19 @@ import main20k from "./main20k.jpg";
 import main20ka from "./main20ka.jpg";
 import main20kb from "./main20kb.jpg";
 import main20kc from "./main20kc.jpg";
-import main20ke from "./main20ke.jpg";
-import main20kf from "./main20kf.jpg";
-import main20kg from "./main20kg.jpg";
 import main20kd from "./main20kd.jpg";
+import main20i from "./main20i.jpg";
+import main20l from "./main20l.jpg";
+import main20j from "./main20j.jpg";
+import main20h from "./main20h.jpg";
 
 
+
+
+import Benin from "./Benin.jpg";
+import Benina from "./Benina.jpg";
+import Benin1 from "./Benin1.jpg";
+import Benin2 from "./Benin2.jpg";
 
 import Installation from '../components/installation';
 
@@ -162,11 +169,16 @@ export default function Services() {
       powers: ""
     },
     { id:1,
-      images:[main20k,main20ka,main20kb,main20kc,main20kd,main20ke,main20kf,main20kg],
-      desc: "20kva Solar system Installation",
+      images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,main20l ],
+      desc: "20kva / 96V Solar system Installation",
       powers: ""
     },
     { id:8,
+      images:[ Benina,Benin,Benin1,Benin2],
+      desc: "Benin Owina River Basin 40Kva/192V Solar System",
+      powers: ""
+    },
+    { id:9,
       images:[main60,a60,b60,c60],
       desc: "60kva/120V Inverter Solar system",
       powers: ""
