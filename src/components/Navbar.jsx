@@ -71,7 +71,7 @@ export default function Navbar(){
             </Link>
            
         <div className="flex justify-evenly items-center gap-3 mt-2">
-        <a href="https://wa.me/+2348075362652"> 
+        <a href="https://wa.me/+2348145544903"> 
          <button className="bg-[#37CA2A] md:ml-8 rounded-md 
            font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#37CA3A] duration-500">Contact Us</button>
          </a>
@@ -132,7 +132,7 @@ export default function Navbar(){
       
         <div className="flex justify-evenly items-center gap-3 mt-2">
       
-        <a href="https://wa.me/+2348075362652"> 
+        <a href="https://wa.me/+2348145544903"> 
          <button className="bg-[#37CA2A] md:ml-8 rounded-md   font-[lato] px-6 py-2 text-white shadow-lg hover:bg-[#37CA2B] duration-500">CONTACT US</button>
          </a>
         </div>

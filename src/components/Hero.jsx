@@ -10,7 +10,7 @@ function Hero() {
         <div className='display  mt-[150px]'>
             <h1 className='font-bold text-[#37CA2A] 
             text-4xl font-[lato] '>
-                Our Vision</h1>
+                Our Mission</h1>
             <p className='font-bold text-white text-lg font-[lato] mb-2 ' >
             To provide affordable and innovative solar energy solutions to empower organizations and individuals 
             through the use of renewable energy.
@@ -19,7 +19,7 @@ function Hero() {
            
             <h1 className='font-bold text-[#37CA2A] 
             text-4xl font-[lato] mt-5'>
-                Our Mission</h1>
+                Our Vision</h1>
             <p className='font-bold text-white text-lg font-[lato]  mt-1' >
                 To be one of the Leading provider of solar energy solutions.
                 </p>
@@ -35,7 +35,7 @@ function Hero() {
             duration-500">Learn More</button>
            </Link>
          
-         <a href="https://wa.me/+2348075362652"> 
+         <a href="https://wa.me/+2348145544903"> 
          <button className="bg-white  rounded-md 
            font-[lato] px-6 py-2 text-black shadow-lg hover:bg-[#37CA3A] duration-500">Book Now</button>
          </a>
