@@ -185,19 +185,19 @@ export default function Services() {
     },
     { id:6,
       images:[lithium1,lithium1a],
-      desc: "3.5kva/ 24Volts  Lithium Inverter Solar system",
+      desc: "3.5kva/ 24V  Lithium Inverter Solar system",
       powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:9,
       images:[main5a,main5a1,main5a2,main5a3],
       desc: "5kva/48V Inverter Solar system",
-      powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter And Borehole"
+      powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter AC And Borehole"
      
     },
     { id:7,
       images:[main10a,main10b,main10c,main10d],
       desc: "10kva/48V Inverter Solar system",
-      powers: "15 LED Lights,6 Fans ,4 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,4 Laptops,2 Freezer,1 blender ,1 Microwave, 1 Pressing Iron,1 Inverter And Borehole"
+      powers: "15 LED Lights,6 Fans ,4 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,4 Laptops,2 Freezer,1 blender ,1 Microwave, 1 Pressing Iron,1 Inverter AC And Borehole"
     
     },
     { id:1,
@@ -252,8 +252,8 @@ export default function Services() {
              initial="initial"
              animate="animate"
              className='services'>
-           <Service text="CCTV Camera Installation" paragraph="Professional technicians from the company handle the actual installation, ensuring that all cameras are correctly mounted and positioned for optimal coverage. They also run the necessary cabling or set up wireless networks to ensure smooth communication between the cameras and the recording devices. Proper camera angles, lighting considerations, and concealment (if necessary) are also handled during installation."/>
            <Service text="Solar System Installation" paragraph=" Professional technicians carry out the actual installation, which includes securely mounting the solar panels on the roof or ground, connecting the panels to the inverter, and wiring the system to the property’s electrical grid. Safety is a priority during installation, and the company ensures that all components are installed correctly and adhere to industry standards."/>
+           <Service text="CCTV Camera Installation" paragraph="Professional technicians from the company handle the actual installation, ensuring that all cameras are correctly mounted and positioned for optimal coverage. They also run the necessary cabling or set up wireless networks to ensure smooth communication between the cameras and the recording devices. Proper camera angles, lighting considerations, and concealment (if necessary) are also handled during installation."/>
            <Service text="Electric  Fencing" paragraph="Once the design and materials are approved, experienced technicians handle the installation process. This involves:
 
 Preparing the Site: Clearing vegetation, leveling the ground, and marking property lines.
