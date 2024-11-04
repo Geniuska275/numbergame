@@ -180,7 +180,7 @@ export default function Services() {
     // },
     { id:5,
       images:[main3,main3a],
-      desc: "3.5kva/ 24Volts Inverter Solar system",
+      desc: "3.5kva/ 24V Inverter Solar system",
       powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:6,
