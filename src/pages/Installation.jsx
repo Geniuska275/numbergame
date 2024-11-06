@@ -106,12 +106,14 @@ function Installation() {
       { id:3,
         images:[maink2a,maink2],
        desc: "2.5kva/12V Inverter Solar system",
-      powers: " 10 LED Lights,3 Fans,2 TV ,1 Decoder ,1 Fridge 1 Washing Machine and 1 Laptop"
+      powers: " 10 LED Lights,3 Fans,2 TV ,1 Decoder ,1 Fridge 1 Washing Machine and 1 Laptop",
+      capacity:"5 180W Panels , 1 Battery. "
 
        },
        { id:4,
         images:[maink1a,maink1b],
         desc: "1kva/12V Inverter Solar system",
+         capacity:"4 180W Panels, 1 Battery. ",
         powers: "10 LED Lights,3 Fans,2 TVs ,1 Home Theatre,1 Decoder, 1 fridge,Washing Machine and 1 laptop."
       },
       // { id:2,
@@ -131,22 +133,26 @@ function Installation() {
       // },
       { id:5,
         images:[main3,main3a],
-        desc: "3.5kva/ 24Volts Inverter Solar system",
-        powers: ""
+        desc: "3.5kva/ 24V Inverter Solar system",
+        powers: "",
+         capacity:"8 180W Panels ,2 Batteries. "
       },
       { id:6,
         images:[lithium1,lithium1a],
-        desc: "3.5kva/ 24Volts  Lithium Inverter Solar system",
+        desc: "3.5kva/ 24V  Lithium Inverter Solar system",
+         capacity:"8 180W Panels, 2 Batteries. ",
         powers: ""
       },
       { id:9,
         images:[main5a,main5a1,main5a2,main5a3],
         desc: "5kva/48V Inverter Solar system",
+         capacity:"12 250W Panels, 4 Batteries. ",
         powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter And Borehole"
       },
       { id:7,
         images:[main10a,main10c,main10d,main10b],
         desc: "10kva/48V Inverter Solar system",
+         capacity:"24 250W Panels With 8 Batteries. ",
         powers: ""
       },
       { id:1,
@@ -162,6 +168,7 @@ function Installation() {
       { id:11,
         images:[Beta,Beta1,Beta2,Bet1,Bet2],
         desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
+         capacity:"2 180W Panels ",
         powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
       },
       { id:10,
@@ -180,6 +187,8 @@ function Installation() {
   return (
     <div className='p-[80px]'>
             <h1 className='font-bold text-xl mb-4 text-center'>{installation.desc}</h1>
+            <h4 className='font-bold text-sm mb-4 text-center'> Comes with  {installation.capacity}</h4>
+
             
         <div className='install'>
 
