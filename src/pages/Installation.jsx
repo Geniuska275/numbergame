@@ -90,6 +90,8 @@ import west19 from "./west19.jpg";
 import west20 from "./west20.jpg";
 import west21 from "./west21.jpg";
 
+import maink1a from "./maink1a.jpeg";
+import maink1b from "./maink1b.jpg";
 
 import maink2 from "./maink2.jpg";
 import maink2a from "./maink2a.jpg";
@@ -101,8 +103,14 @@ function Installation() {
       { id:3,
         images:[maink2a,maink2],
        desc: "2.5kva/12V Inverter Solar system",
-       powers: " 8 LED Lights,2 Fans,1 TV ,1 Decoder and 1 laptop"
+      powers: " 10 LED Lights,3 Fans,2 TV ,1 Decoder ,1 Fridge 1 Washing Machine and 1 Laptop"
+
        },
+       { id:4,
+        images:[maink1a,maink1b],
+        desc: "1kva/12V Inverter Solar system",
+        powers: "10 LED Lights,3 Fans,2 TVs ,1 Home Theatre,1 Decoder, 1 fridge,Washing Machine and 1 laptop."
+      },
       // { id:2,
       //   images:[main10,main1,main2,main3,main4,main5],
       //   desc: "1kva / 12volts Inverter Solar system",
