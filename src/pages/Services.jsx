@@ -171,7 +171,7 @@ export default function Services() {
     },
     // },
      { id:3,
-      images:[maink2,maink2a],
+      images:[maink2a,maink2],
      desc: "2.5kva/12V Inverter Solar system",
      powers: " 8 LED Lights,2 Fans,1 TV ,1 Decoder and 1 laptop"
      },

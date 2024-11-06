@@ -91,10 +91,18 @@ import west20 from "./west20.jpg";
 import west21 from "./west21.jpg";
 
 
+import maink2 from "./maink2.jpg";
+import maink2a from "./maink2a.jpg";
+
 import { useState } from 'react';
 function Installation() {
     const {id}=useParams();
     const [installations,setInstallations]=useState([
+      { id:3,
+        images:[maink2a,maink2],
+       desc: "2.5kva/12V Inverter Solar system",
+       powers: " 8 LED Lights,2 Fans,1 TV ,1 Decoder and 1 laptop"
+       },
       // { id:2,
       //   images:[main10,main1,main2,main3,main4,main5],
       //   desc: "1kva / 12volts Inverter Solar system",
