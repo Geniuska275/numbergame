@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import lawrence from "./l.jpeg";
-import emmanuel from "./eh.jpeg";
-import isaac from "./si.jpeg";
+import emmanuel from "./emma.jpg";
+import isaac from "./isaac1.jpg";
 import vincent from "./v.jpeg";
 import victory from "./vi.jpeg";
 import monday from "./m.jpeg";
