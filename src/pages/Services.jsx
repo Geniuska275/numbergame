@@ -169,6 +169,7 @@ export default function Services() {
     //   powers: " 6 LED Lights,2 Fans,1 TV ,1 Decoder and Home Theater."
     { id:11,
       images:[Beta,Beta1,Beta2,Bet1,Bet2],
+      capacity:"2 180W Panels ",
       desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
       powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
     },
@@ -176,32 +177,39 @@ export default function Services() {
      { id:3,
       images:[maink2a,maink2],
      desc: "2.5kva/12V Inverter Solar system",
+     capacity:"5 180W Panels , 1 Battery. ",
      powers: " 10 LED Lights,3 Fans,2 TV ,1 Decoder ,1 Fridge 1 Washing Machine and 1 Laptop"
      },
     { id:4,
       images:[maink1a,maink1b],
       desc: "1kva/12V Inverter Solar system",
+      capacity:"4 180W Panels, 1 Battery. ",
       powers: "10 LED Lights,3 Fans,2 TVs ,1 Home Theatre,1 Decoder, 1 fridge,Washing Machine and 1 laptop."
     },
     { id:5,
       images:[main3,main3a],
       desc: "3.5kva/ 24V Inverter Solar system",
+       capacity:"8 180W Panels ,2 Batteries. ",
       powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:6,
       images:[lithium1,lithium1a],
       desc: "3.5kva/ 24V  Lithium Inverter Solar system",
+      capacity:"8 180W Panels ,2 Batteries",
+
       powers: "10 LED Lights,1 Home Theatre,1 Decoder ,1 Fridge ,1 Washing Machine,1 Laptop,1 freezer and 1 Pressing Iron."
     },
     { id:9,
       images:[main5a,main5a1,main5a2,main5a3],
       desc: "5kva/48V Inverter Solar system",
+      capacity:"12 250W Panels, 4 Batteries ",
       powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter AC And Borehole"
      
     },
     { id:7,
       images:[main10a,main10c,main10d,main10b],
       desc: "10kva/48V Inverter Solar system",
+      capacity:"24 250W Panels With 8 Batteries ",
       powers: "15 LED Lights,6 Fans ,4 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,4 Laptops,2 Freezer,1 blender ,1 Microwave, 1 Pressing Iron,1 Inverter AC And Borehole"
     
     },
