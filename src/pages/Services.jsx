@@ -195,7 +195,7 @@ export default function Services() {
      
     },
     { id:7,
-      images:[main10a,main10b,main10c,main10d],
+      images:[main10a,main10c,main10d,main10b],
       desc: "10kva/48V Inverter Solar system",
       powers: "15 LED Lights,6 Fans ,4 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,4 Laptops,2 Freezer,1 blender ,1 Microwave, 1 Pressing Iron,1 Inverter AC And Borehole"
     

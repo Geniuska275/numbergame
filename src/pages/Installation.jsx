@@ -126,7 +126,7 @@ function Installation() {
         powers: "15 LED Lights,4 Fans ,3 Tvs,1 Home Theatre,2 Decoders,1 fridge,1 Washing Machine,2 Laptops,1 Freezer,1 ,1 blender ,1 Inverter And Borehole"
       },
       { id:7,
-        images:[main10a,main10b,main10c,main10d],
+        images:[main10a,main10c,main10d,main10b],
         desc: "10kva/48V Inverter Solar system",
         powers: ""
       },
