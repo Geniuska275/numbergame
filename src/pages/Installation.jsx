@@ -152,7 +152,7 @@ function Installation() {
       },
       { id:12,
         images:[west,west2,west3,west4,west5,west6,west7,west8,west9,west10,west11,west12,west13,west14,west15,west16,west17,west18,west19,west20,west21],
-        desc: "Westland Banks Installation",
+        desc: "Wetland Banks Installation",
         powers: ""
       },
     ])

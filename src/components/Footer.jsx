@@ -20,7 +20,7 @@ export default function Footer() {
             </div>
             <div className='space'>
                 <div>
-                <h1 className='font-extrabold font-[lato] mb-2'>Benin Branch</h1>
+                <h1 className='font-extrabold font-[lato] mb-2'>Benin Branch (SHOP)</h1>
                 <p  className='text-sm text-[#4A4E55] mb-[20px]'> 104, 2nd East Circular Road,<br></br> opposite St.Pauls Anglican Church,
                 <br></br> Before Ekiosa Market ,<br></br>Benin City, Edo State.
                 </p>

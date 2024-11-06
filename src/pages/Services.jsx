@@ -212,7 +212,7 @@ export default function Services() {
     },
     { id:12,
       images:[ west20,west,west2,west3,west4,west5,west6,west7,west8,west9,west10,west11,west12,west13,west14,west15,west16,west17,west18,west19,west20,west21],
-      desc: "Westland Banks Installation",
+      desc: "Wetland Banks Installation",
       
     },
     // { id:10,
@@ -252,8 +252,24 @@ export default function Services() {
              initial="initial"
              animate="animate"
              className='services'>
-           <Service text="Solar System Installation" paragraph=" Professional technicians carry out the actual installation, which includes securely mounting the solar panels on the roof or ground, connecting the panels to the inverter, and wiring the system to the property’s electrical grid. Safety is a priority during installation, and the company ensures that all components are installed correctly and adhere to industry standards."/>
-           <Service text="CCTV Camera Installation" paragraph="Professional technicians from the company handle the actual installation, ensuring that all cameras are correctly mounted and positioned for optimal coverage. They also run the necessary cabling or set up wireless networks to ensure smooth communication between the cameras and the recording devices. Proper camera angles, lighting considerations, and concealment (if necessary) are also handled during installation."/>
+           <Service text="Solar System Installation"
+            paragraph="Professional technicians carry out the actual installation,
+             which includes securely mounting the solar panels on the roof or ground,
+              connecting the panels to the inverter, 
+              and wiring the system to the property’s 
+             electrical grid. Safety is a priority during installation, 
+             and the company ensures that all components are installed
+              correctly and adhere to industry standards."
+              />
+           <Service text="CCTV Camera Installation" paragraph="Professional 
+           technicians from the company handle the actual installation,
+            ensuring that all cameras are correctly mounted and positioned for optimal coverage.
+             They also run the necessary cabling or set up wireless networks to ensure
+              smooth communication between the
+               cameras and the recording devices.
+                Proper camera angles, lighting considerations,
+             and concealment (if necessary) are also handled during
+              installation."/>
            <Service text="Electric  Fencing" paragraph="Once the design and materials are approved, experienced technicians handle the installation process. This involves:
 
 Preparing the Site: Clearing vegetation, leveling the ground, and marking property lines.
