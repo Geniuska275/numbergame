@@ -101,6 +101,8 @@ import Beta from "./beta.jpg";
 import Beta1 from "./beta1.jpg";
 import Beta2 from "./beta2.jpg";
 
+import Bet1 from "./bet1.jpg";
+import Bet2 from "./bet2.jpg";
 import Installation from '../components/installation';
 
 import Slider from "react-slick";
@@ -166,7 +168,7 @@ export default function Services() {
     //   desc: "1kva / 12volts Inverter Solar system",
     //   powers: " 6 LED Lights,2 Fans,1 TV ,1 Decoder and Home Theater."
     { id:11,
-      images:[Beta,Beta1,Beta2],
+      images:[Beta,Beta1,Beta2,Bet1,Bet2],
       desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
       powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
     },

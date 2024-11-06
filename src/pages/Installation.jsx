@@ -95,7 +95,8 @@ import maink1b from "./maink1b.jpg";
 
 import maink2 from "./maink2.jpg";
 import maink2a from "./maink2a.jpg";
-
+import Bet1 from "./bet1.jpg";
+import Bet2 from "./bet2.jpg";
 import { useState } from 'react';
 function Installation() {
     const {id}=useParams();
@@ -157,9 +158,9 @@ function Installation() {
         powers: ""
       },
       { id:11,
-        images:[Beta,Beta1,Beta2],
-        desc: "Installation of 100 Beta Life Boxes.",
-        powers: ""
+        images:[Beta,Beta1,Beta2,Bet1,Bet2],
+        desc: "Installation of 100 Beta Life Boxes across 100 primary schools in Edo State.",
+        powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
       },
       { id:10,
         images:[main60,a60,b60,c60],
