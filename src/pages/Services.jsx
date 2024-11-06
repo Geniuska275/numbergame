@@ -82,7 +82,7 @@ import main20kb from "./main20kb.jpg";
 import main20kc from "./main20kc.jpg";
 import main20kd from "./main20kd.jpg";
 import main20i from "./main20i.jpg";
-import main20l from "./main20l.jpg";
+import new20 from "./new20.jpg";
 import main20j from "./main20j.jpg";
 import main20h from "./main20h.jpg";
 
@@ -206,7 +206,7 @@ export default function Services() {
     
     },
     { id:1,
-      images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,main20l ],
+      images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,new20 ],
       desc: "20kva / 96V Solar system Installation",
      powers: "30 LED Lights,12 Fans ,8 Tvs,2 Home Theatre,4 Decoders,2 fridge,2 Washing Machine,8 Laptops,4 Freezer,2 blender ,2 Microwave, 2 Pressing Iron,2 Inverter And  2 Boreholes."
     },

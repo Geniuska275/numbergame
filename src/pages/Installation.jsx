@@ -97,7 +97,7 @@ import maink2 from "./maink2.jpg";
 import maink2a from "./maink2a.jpg";
 import Bet1 from "./bet1.jpg";
 import Bet2 from "./bet2.jpg";
-
+import new20 from "./new20.jpg";
 
 import { useState } from 'react';
 function Installation() {
@@ -150,7 +150,7 @@ function Installation() {
         powers: ""
       },
       { id:1,
-        images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,main20h,main20l],
+        images:[main20k,main20ka,main20kb,main20kc,main20kd,main20i,main20j,new20],
         desc: "20kva / 96V Solar system Installation",
         powers: ""
       },
@@ -175,8 +175,6 @@ function Installation() {
         powers: ""
       },
     ])
-    
-    console.log(id)
     const installation=installations.find(i=>i.id===parseInt(id))
      console.log(installation)
   return (
