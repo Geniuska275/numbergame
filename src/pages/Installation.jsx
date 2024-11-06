@@ -97,6 +97,8 @@ import maink2 from "./maink2.jpg";
 import maink2a from "./maink2a.jpg";
 import Bet1 from "./bet1.jpg";
 import Bet2 from "./bet2.jpg";
+
+
 import { useState } from 'react';
 function Installation() {
     const {id}=useParams();

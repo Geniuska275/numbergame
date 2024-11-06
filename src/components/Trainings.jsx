@@ -4,12 +4,17 @@ import img2 from "./trains2.jpg";
 import img3 from "./trains3.jpg";
 import img4 from "./trains4.jpg";
 import img5 from "./trains5.jpg";
+import img6 from "./tra1.jpg";
+import img7 from "./tra2.jpg";
+import img8 from "./tra3.jpg";
+import img9 from "./tra4.jpg";
+import img10 from "./tra5.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function Trainings({text}) {
-    const images=[img1,img2,img3,img4,img5];
+    const images=[img1,img2,img3,img4,img5,img6,img7,img8,img9];
     var settings = {
   
         speed: 200,
