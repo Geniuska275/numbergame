@@ -86,6 +86,8 @@ import main20l from "./main20l.jpg";
 import main20j from "./main20j.jpg";
 import main20h from "./main20h.jpg";
 
+import maink2 from "./maink2.jpg";
+import maink2a from "./maink2a.jpg";
 
 
 
@@ -168,11 +170,11 @@ export default function Services() {
       powers: "1 TV ,1 GoTV Decoder ,6 LED Lights and 1 Fan"
     },
     // },
-    // { id:3,
-    //   images:[main20,main1,main2,main3,main4,main5],
-    //   desc: "2.5kva/12volts Inverter Solar system",
-    //   powers: " 8 LED Lights,2 Fans,1 TV ,1 Decoder and 1 laptop"
-    // },
+     { id:3,
+      images:[maink2,maink2a],
+     desc: "2.5kva/12V Inverter Solar system",
+     powers: " 8 LED Lights,2 Fans,1 TV ,1 Decoder and 1 laptop"
+     },
     // { id:4,
     //   images:[main20,main1,main2,main3,main4,main5],
     //   desc: "2.5kva/24Volts Inverter Solar system",

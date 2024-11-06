@@ -21,7 +21,7 @@ export default function Products() {
     {
       images:image2,
       name:"Available",
-      description:"Beta Life Box",
+      description:"18 inches Solar Standing Fan",
       price:""
     },
     {
@@ -33,7 +33,7 @@ export default function Products() {
   {
     images:image3,
     name:"Available",
-    description:"18 inch Solar Standing Fan",
+    description:" Table / Wall Solar Fan",
     price:""
   },
   {
@@ -45,7 +45,7 @@ export default function Products() {
   {
     images:image5,
     name:"Available",
-    description:"Desktop Solar Fan",
+    description:" Beta Life Boxes",
     price:""
   }
 
