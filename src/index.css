@@ -274,6 +274,9 @@ body{
   align-items: center;
 }
 @media screen and (max-width: 600px) {
+  .width{
+    width: 100%;
+  }
   .install{
     display: flex;
      flex-direction: column;
