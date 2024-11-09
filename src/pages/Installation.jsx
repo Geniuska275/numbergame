@@ -200,25 +200,33 @@ function Installation() {
          <div className='install'>
 
 {installation.images.slice(4,8).map(image=>(
-    <img src={image} className="width"/>
+             <div className='w-[350px] '>
+             <img src={image} style={{width:"350px",height:"400px"}} />
+             </div>
   ))}
 </div>
 <div className='install'>
 
     {installation.images.slice(9,12).map(image=>(
-    <img src={image} className=' mb-2 width'/>
+          <div className='w-[350px] '>
+          <img src={image} style={{width:"350px",height:"400px"}} />
+          </div>
   ))}
      </div>
      <div className='install'>
 
 {installation.images.slice(13,17).map(image=>(
-    <img src={image}/>
+              <div className='w-[350px] '>
+              <img src={image} style={{width:"350px",height:"400px"}} />
+              </div>
   ))}
 </div>
 <div className='install'>
 
 {installation.images.slice(18,22).map(image=>(
-    <img src={image} className=' mb-2 width'/>
+              <div className='w-[350px] '>
+              <img src={image} style={{width:"350px",height:"400px"}} />
+              </div>
   ))}
 </div>
     </div>
