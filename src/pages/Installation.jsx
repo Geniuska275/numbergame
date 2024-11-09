@@ -191,9 +191,10 @@ function Installation() {
 
             
         <div className='install'>
-
         {installation.images.slice(0,4).map(image=>(
-            <img src={image} className='width wid'/>
+          <div className='w-[500px]'>
+            <img src={image} style={{width:"400px",height:"300px"}} />
+            </div>
         ))}
         </div>
          <div className='install'>

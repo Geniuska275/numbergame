@@ -277,9 +277,9 @@ body{
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .wid{
-    width:600px;
+    width:100%;
   }
   .install{
     display: flex;
