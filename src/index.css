@@ -103,6 +103,10 @@ body{
     align-items: center;
     margin-bottom: 20px;
 }
+.width{
+  height: 400px;
+  width: 300px;
+}
 .services{
     display: flex;
     justify-content: space-around;
@@ -273,9 +277,9 @@ body{
   justify-content: space-around;
   align-items: center;
 }
-@media screen and (max-width: 600px) {
-  .width{
-    width: 100%;
+@media (max-width: 450px) {
+  .wid{
+    width:600px;
   }
   .install{
     display: flex;
