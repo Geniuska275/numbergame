@@ -7,7 +7,7 @@ function Installation({data}) {
      <img src={data.images[0]} className='h-[240px] w-full'/>
      <h1 className='text-center font-bold font-[lato] m-1'>{data?.desc}</h1>
     {data?.capacity ? 
-     <h4 className='text-center font-bold font-[lato] m-1 text-sm'>({data?.capacity})</h4>:""}
+     <h4 className='text-center  font-[lato] m-1 text-sm'>{data?.capacity}</h4>:""}
 
 
     {data.powers && 
