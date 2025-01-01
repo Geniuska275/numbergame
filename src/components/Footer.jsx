@@ -69,7 +69,7 @@ export default function Footer() {
         <div className='flex items-center justify-center gap-1'>
         <LiaCopyrightSolid />
 
-        <h1 className='m-5 text-center'>Copyright 2024 GreenFusion Energy.</h1>
+        <h1 className='m-5 text-center'>Copyright { new Date().getFullYear()} GreenFusion Energy.</h1>
         </div>
 
 
