@@ -186,7 +186,7 @@ function Installation() {
      console.log(installation)
   return (
     <div className='p-[80px]'>
-            <h1 className='font-bold text-xl mb-4 text-center'>{installation.desc}</h1>
+            {/* <h1 className='font-bold text-xl mb-4 text-center'>{installation.desc}</h1>
             <h4 className='font-bold text-sm mb-4 text-center'> Comes with  {installation.capacity}</h4>
 
             
@@ -228,7 +228,7 @@ function Installation() {
               <img src={image} style={{width:"350px",height:"400px"}} />
               </div>
   ))}
-</div>
+</div> */}
     </div>
   )
 }

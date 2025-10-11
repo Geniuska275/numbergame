@@ -243,7 +243,7 @@ export default function Services() {
   return (
     <div className='content'>
    
-
+{/* 
         <div>
 
           {
@@ -315,7 +315,7 @@ System Design and Planning, installation and wiring."/>
           
 
 
-    </div>
+    </div> */}
 
 </div>
   )

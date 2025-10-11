@@ -58,7 +58,7 @@ export default function Homepage() {
   
   return (
     <div>
-      <ToastContainer/>
+      {/* <ToastContainer/>
         <Hero/>
         <Statistics/>
          <AboutUs/>
@@ -139,7 +139,7 @@ System Design and Planning, installation and wiring."/>
         
         </form>
       </motion.div>
-           </div>
+           </div> */}
         
        
     </div>

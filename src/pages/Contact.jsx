@@ -60,7 +60,7 @@ function Contact() {
   return (
     <div>
 
-{
+{/* {
             loading &&
 
            <div className='loader'>
@@ -153,7 +153,7 @@ function Contact() {
 
 
 
-     </div>
+     </div> */}
     </div>
   )
 }

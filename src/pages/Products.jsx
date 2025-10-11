@@ -52,7 +52,7 @@ export default function Products() {
   ])
   return (
     <div className='content'>
-       {
+       {/* {
             loading &&
 
            <div className='loader'>
@@ -78,7 +78,7 @@ export default function Products() {
              <Product key={index} images={product.images} name={product.name} description={product.description} price={product.price}/>
             ))}
             </div>
-           
+            */}
            
     </div>
   )
